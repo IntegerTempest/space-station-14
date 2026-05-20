@@ -634,6 +634,7 @@
 - type: Tag
   id: GhostOnlyWarp
 
+# Used for warps
 - type: Tag
   id: GenderPin #  Chameleon key for ClothingGenderPinBase.
 
@@ -1002,6 +1003,7 @@
 - type: Tag
   id: NoConsoleSound # Blacklist on BaseComputer, StationMap. Tagged entity will not make sound when opening the UI.
 
+## N ##
 - type: Tag
   id: NotGhostnadoWarpable # Prevents the entity from being selected via "Warp to most followed" ghost warp
 
