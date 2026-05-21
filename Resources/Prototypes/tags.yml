@@ -459,6 +459,9 @@
   id: Dice # Storage whitelist: BorgModuleService, DiceBag, BooksBag
 
 - type: Tag
+  id: Dish # Used by Xenobiology CellSequencer tagRequirements for petri dishes.
+
+- type: Tag
   id: DiscreteHealthAnalyzer # Storage whitelist: ClothingBeltMedical. ConstructionGraph: MediBot
 
 - type: Tag

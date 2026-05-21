@@ -11,26 +11,10 @@
       "name": "base"
     },
     {
-      "name": "door-closed",
-      "delays": [
-        [
-          0.1,
-          0.1,
-          0.1,
-          0.1
-        ]
-      ]
+      "name": "door-closed"
     },
     {
-      "name": "door-open",
-      "delays": [
-        [
-          0.1,
-          0.1,
-          0.1,
-          0.1
-        ]
-      ]
+      "name": "door-open"
     },
     {
       "name": "icon"

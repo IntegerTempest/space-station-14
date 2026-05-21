@@ -1380,7 +1380,7 @@
     prototype: CellSequencer
     stackRequirements:
       Plasma: 5
-      MatterBin: 1
+      Manipulator: 1
       Glass: 1
       Steel: 2
     tagRequirements:
@@ -1400,7 +1400,7 @@
     prototype: CellularFusion
     stackRequirements:
       Plasma: 5
-      MatterBin: 1
+      Manipulator: 1
       Glass: 1
       Steel: 2
     tagRequirements:
