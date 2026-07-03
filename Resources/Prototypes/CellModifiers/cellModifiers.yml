@@ -8,6 +8,146 @@
 - type: cellModifier
   id: OwO
   name: cell-modifier-OwO-name
-  color: "#ff0000"
+  color: "#ff66aa"
   modifiers:
   - !type:CellOwOModifier
+
+- type: cellModifier
+  id: NightVision
+  name: cell-modifier-NightVision-name
+  color: "#44cc44"
+  modifiers:
+  - !type:CellNightVisionModifier
+
+- type: cellModifier
+  id: Flight
+  name: cell-modifier-Flight-name
+  color: "#66ccff"
+  modifiers:
+  - !type:CellFlightModifier
+
+- type: cellModifier
+  id: SmallSize
+  name: cell-modifier-SmallSize-name
+  color: "#ffff44"
+  modifiers:
+  - !type:CellSmallSizeModifier
+
+- type: cellModifier
+  id: LargeSize
+  name: cell-modifier-LargeSize-name
+  color: "#ff8844"
+  modifiers:
+  - !type:CellLargeSizeModifier
+
+- type: cellModifier
+  id: EggLayer
+  name: cell-modifier-EggLayer-name
+  color: "#ffcc88"
+  modifiers:
+  - !type:CellEggLayerModifier
+
+- type: cellModifier
+  id: Lactation
+  name: cell-modifier-Lactation-name
+  color: "#ff88cc"
+  modifiers:
+  - !type:CellLactationModifier
+
+- type: cellModifier
+  id: Wooly
+  name: cell-modifier-Wooly-name
+  color: "#cccccc"
+  modifiers:
+  - !type:CellWoolyModifier
+
+- type: cellModifier
+  id: Venomous
+  name: cell-modifier-Venomous-name
+  color: "#88dd44"
+  modifiers:
+  - !type:CellVenomousModifier
+
+- type: cellModifier
+  id: WebSpinning
+  name: cell-modifier-WebSpinning-name
+  color: "#eeeeee"
+  modifiers:
+  - !type:CellWebSpinningModifier
+
+- type: cellModifier
+  id: Regeneration
+  name: cell-modifier-Regeneration-name
+  color: "#44ff88"
+  modifiers:
+  - !type:CellRegenerationModifier
+
+- type: cellModifier
+  id: NoSlip
+  name: cell-modifier-NoSlip-name
+  color: "#4488ff"
+  modifiers:
+  - !type:CellNoSlipModifier
+
+- type: cellModifier
+  id: Reflection
+  name: cell-modifier-Reflection-name
+  color: "#ffdd44"
+  modifiers:
+  - !type:CellReflectionModifier
+
+- type: cellModifier
+  id: Invisibility
+  name: cell-modifier-Invisibility-name
+  color: "#aaddff"
+  modifiers:
+  - !type:CellInvisibilityModifier
+
+- type: cellModifier
+  id: Radiation
+  name: cell-modifier-Radiation-name
+  color: "#88ff00"
+  modifiers:
+  - !type:CellRadiationModifier
+
+- type: cellModifier
+  id: Reform
+  name: cell-modifier-Reform-name
+  color: "#cc44ff"
+  modifiers:
+  - !type:CellReformModifier
+
+- type: cellModifier
+  id: Clumsy
+  name: cell-modifier-Clumsy-name
+  color: "#ff8844"
+  modifiers:
+  - !type:CellClumsyModifier
+
+- type: cellModifier
+  id: MessyDrinker
+  name: cell-modifier-MessyDrinker-name
+  color: "#bb7744"
+  modifiers:
+  - !type:CellMessyDrinkerModifier
+
+- type: cellModifier
+  id: ParrotSpeech
+  name: cell-modifier-ParrotSpeech-name
+  color: "#ff4444"
+  modifiers:
+  - !type:CellParrotSpeechModifier
+
+- type: cellModifier
+  id: MediumSize
+  name: cell-modifier-MediumSize-name
+  color: "#88bbff"
+  modifiers:
+  - !type:CellMediumSizeModifier
+
+- type: cellModifier
+  id: Bleating
+  name: cell-modifier-Bleating-name
+  color: "#ddddaa"
+  modifiers:
+  - !type:CellBleatingModifier
