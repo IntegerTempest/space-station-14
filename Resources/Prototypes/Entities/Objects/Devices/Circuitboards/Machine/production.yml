@@ -1407,3 +1407,23 @@
       Dish:
         amount: 2
         defaultPrototype: PetriDish
+
+- type: entity
+  id: MutagenicCellInjectorCircuitboard
+  parent: BaseMachineCircuitboard
+  name: mutagenic cell injector machine board
+  description: A machine printed circuit board for a mutagenic cell injector.
+  components:
+  - type: Sprite
+    state: science
+  - type: MachineBoard
+    prototype: MutagenicCellInjector
+    stackRequirements:
+      Plasma: 5
+      Manipulator: 2
+      Glass: 2
+      Steel: 3
+    tagRequirements:
+      Dish:
+        amount: 1
+        defaultPrototype: PetriDish

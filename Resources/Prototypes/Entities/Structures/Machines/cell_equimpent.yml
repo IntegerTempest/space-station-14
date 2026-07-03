@@ -181,15 +181,15 @@
   description: Best not to let your fingers get stuck...
   components:
   - type: Machine
-    board: ArtifactCrusherMachineCircuitboard
+    board: MutagenicCellInjectorCircuitboard
   - type: WiresPanel
   - type: Sprite
     sprite: Structures/Machines/Xenobilology/mutagenic_injector.rsi
     layers:
     - state: base
-      map: ["enum.StorageVisualLayers.Base"]
+      map: ["base"]
     - state: door-closed
-      map: ["enum.StorageVisualLayers.Door"]
+      map: ["enum.MutagenicInjectorVisuals.DoorLayer"]
     - state: unlit
       shader: unshaded
       map: ["enum.PowerDeviceVisualLayers.Powered"]
@@ -206,32 +206,40 @@
         - HighImpassable
         layer:
         - HighImpassable
-  - type: Appearance
-  - type: GenericVisualizer
-    visuals:
-      enum.PowerDeviceVisuals.Powered:
-        enum.PowerDeviceVisualLayers.Powered:
-          True: { visible: true }
-          False: { visible: false }
-  - type: EntityStorage
-    capacity: 1
-    whitelist:
-      components:
-      - CellContainer
-  - type: EntityStorageVisuals
-    stateDoorClosed: door-closed
-    openDrawDepth: 0
-    closedDrawDepth: 4
   - type: Construction
     containers:
     - machine_board
     - machine_parts
-    - entity_storage
   - type: ContainerContainer
     containers:
       machine_board: !type:Container
       machine_parts: !type:Container
-      entity_storage: !type:Container
+      dishSlot: !type:ContainerSlot
+      injector-bodyContainer: !type:ContainerSlot
+  - type: EmptyOnMachineDeconstruct
+    containers:
+    - injector-bodyContainer
+  - type: ItemSlots
+    slots:
+      dishSlot:
+        whitelist:
+          tags:
+          - Dish
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.MutagenicInjectorVisuals.DoorState:
+        enum.MutagenicInjectorVisuals.DoorLayer:
+          True: { visible: true }
+          False: { visible: false }
+      enum.PowerDeviceVisuals.Powered:
+        enum.PowerDeviceVisualLayers.Powered:
+          True: { visible: true }
+          False: { visible: false }
+      enum.WiresVisuals.MaintenancePanelState:
+        enum.WiresVisualLayers.MaintenancePanel:
+          True: { visible: true }
+          False: { visible: false }
   - type: CellMutagenicInjector
   - type: GuideHelp
     guides:
