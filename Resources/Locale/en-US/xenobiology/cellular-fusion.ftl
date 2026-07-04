@@ -22,3 +22,9 @@ cellular-fusion-menu-sync-button = Sync
 cellular-fusion-menu-sync-tooltip-info = Sync.
 cellular-fusion-menu-splice-button = Splice
 cellular-fusion-menu-splice-tooltip-info = Splice.
+
+# Popups
+cellular-fusion-no-connect = Not connected to a cell server.
+cellular-fusion-no-dish = No Petri dish inserted!
+cellular-fusion-splice-success = Splice successful!
+cellular-fusion-splice-failure = Splice failed! Unstable mutation created.

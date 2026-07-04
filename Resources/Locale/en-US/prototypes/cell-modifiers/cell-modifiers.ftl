@@ -20,3 +20,6 @@ cell-modifier-MessyDrinker-name = Messy Drinker
 cell-modifier-ParrotSpeech-name = Parrot Speech
 cell-modifier-MediumSize-name = Medium Size
 cell-modifier-Bleating-name = Bleating
+cell-modifier-ToxicMutation-name = Toxic Mutation
+cell-modifier-BioLuminescentMutation-name = Bio-Luminescent Mutation
+cell-modifier-VolatileMutation-name = Volatile Mutation

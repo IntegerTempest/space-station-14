@@ -30,10 +30,14 @@ public sealed class CellularFusionUiState : BoundUserInterfaceState
 {
     public readonly IReadOnlyList<Cell> RemoteCells;
     public readonly int Material;
+    public readonly bool SpliceInProgress;
+    public readonly Cell? LastResult;
 
-    public CellularFusionUiState(IReadOnlyList<Cell> remoteCells, int material)
+    public CellularFusionUiState(IReadOnlyList<Cell> remoteCells, int material, bool spliceInProgress = false, Cell? lastResult = null)
     {
         RemoteCells = remoteCells;
         Material = material;
+        SpliceInProgress = spliceInProgress;
+        LastResult = lastResult;
     }
 }

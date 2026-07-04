@@ -7,13 +7,6 @@
     <BoxContainer Orientation="Horizontal" HorizontalExpand="True" VerticalExpand="True">
         <!-- Nav panel -->
         <BoxContainer Margin="8" MinWidth="175" Orientation="Vertical" VerticalExpand="True">
-            <Button Name="SyncButton"
-                    Text="{Loc 'cellular-fusion-menu-sync-button'}"
-                    ToolTip="{Loc 'cell-sequencer-menu-sync-tooltip-info'}"
-                    Margin="0 0 0 4" />
-
-            <customControls:HSeparator Margin="0 0 0 4" StyleClasses="LowDivider" />
-
             <Button Name="SpliceButton"
                     Text="{Loc 'cellular-fusion-menu-splice-button'}"
                     ToolTip="{Loc 'cell-sequencer-menu-add-tooltip-info'}"
@@ -57,6 +50,8 @@
                 </BoxContainer>
 
                 <BoxContainer Name="CellInfoContainer" Orientation="Vertical" HorizontalExpand="True" VerticalExpand="True" Margin="8" Visible="False">
+                    <ProgressBar Name="SpliceProgressBar" Visible="False" MinValue="0" MaxValue="100" Value="0" Margin="4" HorizontalExpand="True" />
+
                     <Label Name="CellNameLabel"/>
 
                     <customControls:HSeparator Margin="4 0" StyleClasses="LowDivider" />

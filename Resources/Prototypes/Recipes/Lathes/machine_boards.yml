@@ -244,6 +244,22 @@
   id: APECircuitboard
   result: APECircuitboard
 
+# Xenobiology
+- type: latheRecipe
+  parent: [ BaseCircuitboardRecipe, BaseResearchMachineRecipeCategory ]
+  id: CellSequencerCircuitboard
+  result: CellSequencerCircuitboard
+
+- type: latheRecipe
+  parent: [ BaseCircuitboardRecipe, BaseResearchMachineRecipeCategory ]
+  id: CellularFusionCircuitboard
+  result: CellularFusionCircuitboard
+
+- type: latheRecipe
+  parent: [ BaseCircuitboardRecipe, BaseResearchMachineRecipeCategory ]
+  id: MutagenicCellInjectorCircuitboard
+  result: MutagenicCellInjectorCircuitboard
+
 ## Service
 
 - type: latheRecipe

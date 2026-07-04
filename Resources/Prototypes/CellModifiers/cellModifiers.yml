@@ -151,3 +151,25 @@
   color: "#ddddaa"
   modifiers:
   - !type:CellBleatingModifier
+
+# Mutation-only modifiers (cannot be found via biopsy, only through fusion)
+- type: cellModifier
+  id: ToxicMutation
+  name: cell-modifier-ToxicMutation-name
+  color: "#66ff00"
+  modifiers:
+  - !type:CellToxicMutationModifier
+
+- type: cellModifier
+  id: BioLuminescentMutation
+  name: cell-modifier-BioLuminescentMutation-name
+  color: "#44ddff"
+  modifiers:
+  - !type:CellBioLuminescentMutationModifier
+
+- type: cellModifier
+  id: VolatileMutation
+  name: cell-modifier-VolatileMutation-name
+  color: "#ff4400"
+  modifiers:
+  - !type:CellVolatileMutationModifier

@@ -43,6 +43,22 @@
   - ArtifactAnalyzerMachineCircuitboard
 
 - type: technology
+  id: Xenobiology
+  name: research-technology-xenobiology
+  icon:
+    sprite: Structures/Machines/Xenobilology/cell_sequencer.rsi
+    state: base
+  discipline: Experimental
+  tier: 1
+  cost: 7500
+  recipeUnlocks:
+  - CellSequencerCircuitboard
+  - CellularFusionCircuitboard
+  - MutagenicCellInjectorCircuitboard
+  technologyPrerequisites:
+  - BasicXenoArcheology
+
+- type: technology
   id: AlternativeResearch
   name: research-technology-alternative-research
   icon:
