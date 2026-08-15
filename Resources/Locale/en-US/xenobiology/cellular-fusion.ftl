@@ -26,5 +26,6 @@ cellular-fusion-menu-splice-tooltip-info = Splice.
 # Popups
 cellular-fusion-no-connect = Not connected to a cell server.
 cellular-fusion-no-dish = No Petri dish inserted!
+cellular-fusion-dish-removed = The Petri dish was removed during the splice! Materials refunded.
 cellular-fusion-splice-success = Splice successful!
 cellular-fusion-splice-failure = Splice failed! Unstable mutation created.

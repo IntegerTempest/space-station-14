@@ -183,9 +183,11 @@ public sealed class CellularFusionSystem : EntitySystem
             var fusionEnt = new Entity<CellularFusionComponent>(uid, comp);
             comp.SpliceInProgress = false;
 
-            if (!TryComp<CellContainerComponent>(dish, out var finalDishContainer))
+            if (_itemSlots.GetItemOrNull(uid, comp.DishSlot) != dish ||
+                !TryComp<CellContainerComponent>(dish, out var finalDishContainer))
             {
                 _materialStorage.TryChangeMaterialAmount(uid, comp.RequiredMaterial, cost);
+                _popup.PopupPredicted(Loc.GetString("cellular-fusion-dish-removed"), fusionEnt, null, PopupType.MediumCaution);
                 UpdateUI(fusionEnt, null);
                 return;
             }
